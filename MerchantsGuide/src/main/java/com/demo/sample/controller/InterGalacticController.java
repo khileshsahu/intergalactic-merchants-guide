@@ -19,12 +19,6 @@ public class InterGalacticController {
 	
 	@Autowired
 	private InterGalacticService interGalacticService;
-
-	@GetMapping("/hello")
-	public String sayHello() {
-		System.out.println("Saying hello");
-		return "Hello";
-	}
 	
 	@PostMapping(path="/query", consumes = MediaType.APPLICATION_JSON, produces = MediaType.APPLICATION_JSON)
 	public AppResponse query(@RequestBody AppRequest request) {
