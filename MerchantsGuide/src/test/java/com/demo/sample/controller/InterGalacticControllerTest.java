@@ -1,6 +1,5 @@
 package com.demo.sample.controller;
 
-import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
 
 import java.util.logging.Level;
@@ -20,7 +19,6 @@ import org.springframework.test.web.servlet.MvcResult;
 import org.springframework.test.web.servlet.RequestBuilder;
 import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 
-import com.demo.sample.model.AppRequest;
 import com.demo.sample.service.InterGalacticService;
 
 @RunWith(SpringRunner.class)
